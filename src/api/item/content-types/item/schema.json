@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "itens",
+  "info": {
+    "singularName": "item",
+    "pluralName": "itens",
+    "displayName": "Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "produto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::produto.produto"
+    },
+    "quant": {
+      "type": "integer"
+    }
+  }
+}

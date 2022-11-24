@@ -68,6 +68,12 @@
       "relation": "oneToMany",
       "target": "api::favorito.favorito",
       "mappedBy": "user"
+    },
+    "pedidos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pedido.pedido",
+      "mappedBy": "user"
     }
   }
 }
